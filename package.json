@@ -1,0 +1,30 @@
+{
+  "name": "webserviceexample",
+  "version": "1.0.0",
+  "description": "new project of js",
+  "keywords": [
+    "node",
+    "express",
+    "js"
+  ],
+  "homepage": "https://github.com/Davidmixto20/webserviceexample#readme",
+  "bugs": {
+    "url": "https://github.com/Davidmixto20/webserviceexample/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davidmixto20/webserviceexample.git"
+  },
+  "license": "ISC",
+  "author": "David",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
